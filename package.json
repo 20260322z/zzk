@@ -1,0 +1,12 @@
+{
+  "name": "zhengzhikang-homepage",
+  "version": "1.0.0",
+  "description": "郑志康的个人主页 - 和平战士",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Open index.html in your browser'
+  },
+  "keywords": ["personal", "homepage", "peace", "warrior"],
+  "author": "郑志康",
+  "license": "MIT"
+}

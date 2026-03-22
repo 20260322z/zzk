@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郑志康个人主页 - 在线演示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #059669, #ea580c);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        .description {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .demo-button {
+            display: inline-block;
+            background: white;
+            color: #059669;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        .demo-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .note {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        .qr-placeholder {
+            background: white;
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🕊️ 郑志康</h1>
+        <p class="description">15年一线和平老兵<br>抗战3年<br>坚信和平能让每个普通人都拥有超级能力</p>
+
+        <h2>📱 手机访问</h2>
+        <div class="qr-placeholder">
+            二维码区域<br>
+            （需要部署后才能生成）
+        </div>
+
+        <div>
+            <a href="mobile.html" class="demo-button">📱 手机版演示</a>
+            <a href="index.html" class="demo-button">💻 电脑版演示</a>
+        </div>
+
+        <div class="note">
+            💡 点击上方按钮查看不同版本<br>
+            建议用手机访问 "手机版演示"
+        </div>
+
+        <div style="margin-top: 30px; padding: 20px; background: rgba(255, 255, 255, 0.1); border-radius: 10px;">
+            <h3>🎯 我的使命</h3>
+            <p><strong>使命1:</strong> 打和平</p>
+            <p><strong>使命2:</strong> 吃烧烤</p>
+        </div>
+    </div>
+</body>
+</html>
