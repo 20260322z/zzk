@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和平博客 - 郑志康</title>
+    <meta name="description" content="郑志康的和平博客，分享和平理念和生活感悟">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .blog-hero {
+            background: linear-gradient(135deg, #059669 0%, #ea580c 100%);
+            color: white;
+            padding: 6rem 0 4rem;
+            text-align: center;
+        }
+
+        .blog-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .blog-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 20px;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #059669;
+            transition: all 0.3s ease;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(5, 150, 105, 0.2);
+        }
+
+        .blog-post h2 {
+            color: #059669;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .blog-post .date {
+            color: #ea580c;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .blog-post p {
+            color: #4a5568;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post .read-more {
+            display: inline-block;
+            color: #059669;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .blog-post .read-more:hover {
+            color: #ea580c;
+            transform: translateX(5px);
+        }
+
+        .back-home {
+            display: inline-block;
+            background: linear-gradient(135deg, #059669, #ea580c);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(5, 150, 105, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .blog-hero h1 {
+                font-size: 2rem;
+            }
+
+            .blog-container {
+                padding: 2rem 15px;
+            }
+
+            .blog-post {
+                padding: 1.5rem;
+            }
+
+            .blog-post h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">郑志康</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="index.html#about">关于我</a></li>
+                    <li><a href="index.html#missions">使命</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="index.html#contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="container">
+            <h1>🕊️ 和平博客</h1>
+            <p>分享和平理念，记录生活感悟</p>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <div class="blog-container">
+        <a href="index.html" class="back-home">
+            <i class="fas fa-arrow-left"></i> 返回首页
+        </a>
+
+        <article class="blog-post">
+            <div class="date">2024年3月22日</div>
+            <h2>和平的力量</h2>
+            <p>在15年的和平战士生涯中，我见证了太多因为和平而改变的人生故事。和平不是简单的没有战争，而是一种能够激发每个人潜能的强大力量。</p>
+            <p>当我们生活在和平的环境中，普通人也能展现出惊人的创造力、爱心和智慧。这就是我所说的

@@ -191,15 +191,11 @@ nav {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #059669, #ea580c);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 8rem;
-    color: white;
     margin: 0 auto;
     box-shadow: 0 20px 40px rgba(5, 150, 105, 0.3);
     animation: float 6s ease-in-out infinite;
+    border: 4px solid white;
+    object-fit: cover;
 }
 
 /* Missions Section */
@@ -270,6 +266,55 @@ nav {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+}
+
+.contact-form {
+    background: linear-gradient(135deg, #f0fdf4, #fff7ed);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: white;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #059669;
+    box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.1);
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #059669, #ea580c);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(5, 150, 105, 0.3);
 }
 
 .contact-info {
